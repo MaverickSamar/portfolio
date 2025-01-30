@@ -27,7 +27,7 @@ const Terminal = () => {
 
   return (
     <div style={{ 
-      backgroundColor: 'black', 
+      backgroundColor: 'blue', 
       color: 'white', 
       padding: '10px', 
       fontFamily: 'monospace', 
