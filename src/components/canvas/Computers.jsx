@@ -37,35 +37,6 @@ const Computers = ({ isMobile, cameraPosition }) => {
         position={isMobile ? [0, -2.5, -1] : [0, -3.25, -1.5]}
         rotation={[-0.01, -0.2, -0.1]}
       />
-      {/* <Html
-        position={[-0.4, 0.2, 2.7]}
-        rotation={[0, 0, 0]}
-        occlude="blending"
-        distanceFactor={5.5}
-        style={{
-          width: '630px',
-          height: '330px',
-        }}
-      >
-        <Terminal />
-      </Html> */}
-      <group
-        ref={monitorRef}
-        position={isMobile ? [0, -2.5, -1] : [-0.4, -0.07, 0.02]}
-        rotation={[-0.01, -0.2, -0.1]} // Adjust to match monitor rotation
-      >
-        <Html
-          distanceFactor={1.5} // Scale the terminal component
-          position={[-0.4, 0.2, 2.7]} // Adjust to align with monitor screen
-          // rotation={[0, 0, 0]} // Adjust to align with monitor screen
-          style={{
-            width: '625px',
-            height: '325px',
-          }}
-        >
-          <Terminal />
-        </Html>
-      </group>
     </mesh>
   )
 }
