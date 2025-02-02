@@ -15,14 +15,16 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    singular,
+    marketcube,
+    pentair,
+    neolen,
     threejs,
+    marketcube_img,
+    terminal_img,
+    video_wiki
+
+
   } from "../assets";
   
   export const navLinks = [
@@ -33,6 +35,10 @@ import {
     {
       id: "work",
       title: "Work",
+    },
+    {
+      id: "projects",
+      title: "Projects"
     },
     {
       id: "contact",
@@ -46,7 +52,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Blockchain Developer",
       icon: mobile,
     },
     {
@@ -54,7 +60,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "AI/ML Engineer",
       icon: creator,
     },
   ];
@@ -116,55 +122,47 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Full Stack Blockchain Developer",
+      company_name: "Neolen Technologies",
+      icon: neolen,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "April 2022 - July 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Developing and maintaining web applications using React.js, Solidity and Nodejs.",
+        "Built decentralized storage systems using IPFS and Web3.js, reducing latency by 75%.",
+        "Worked upon ERC20, ERC721 and ERC1155 tokens for metaverse ecosystems.",
+        "Implemented image classification algorithms over decentralized networks with +55% accuracy.",
+        "Planned game economies for virtual worlds, enhancing engagement by 30%."
       ],
     },
     {
       title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      company_name: "Marketcube",
+      icon: marketcube,
+      iconBg: "#E6DEDD",
+      date: "Aug 2022 - Aug 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
+        "Developing and maintaining web applications using Shopify Liquid, ReactJs and GraphQL.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      title: "Software Engineer - Full Stack",
+      company_name: "Pentair",
+      icon: pentair,
+      iconBg: "#383E56",
+      date: "Jul 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Designed scalable web applications using React and Node.js, improving user engagement by 25%.",
+        "Attained proficiency in AWS services – Glue, Athena, Cognito, Lambda, S3, DynamoDB, Code Commit.",
+        "Refactored APIs, reducing cognitive complexity from 150 to 10 & time complexity to O(n).",
         "Participating in code reviews and providing constructive feedback to other developers.",
+        "Integrated test cases of services with 100% coverage.",
+        "Managed AWS Glue Jobs for data analysis to transform live data from 100,000+ devices, enabling insights.", "Developed and deployed RESTful APIs with pre-signed URLs, facilitating secure video and image storage.",
+        "Automated test case generation using LLMs, achieving 100% coverage.",
+        "Coded elastic search bulk API for indexing or deleting more than 1m + entries in one call."
       ],
     },
   ];
@@ -198,58 +196,58 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Singular",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Shopify based e-commerce store for Europe.",
+      tags: [
+        {
+          name: "shopify",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "javascript",
+          color: "green-text-gradient",
+        },
+        {
+          name: "github",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: singular,
+      source_code_link: "https://it.singular.shop/",
+    },
+    {
+      name: "Marketcube",
+      description:
+        "A Multi-Vendor Marketplace. A self-service multi-seller management solution manages on-boarding, inventory, order splitting, shipping, fulfillment and payouts. The only thing they don’t do is make the product.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
+        },
+        {
+          name: "graphql",
+          color: "green-text-gradient",
         },
         {
           name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: marketcube_img,
+      source_code_link: "https://www.marketcube.io/",
     },
     {
-      name: "Job IT",
+      name: "Portfolio Terminal",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A personal portfolio in a UNIX terminal. You can type commands to perform actions.",
       tags: [
         {
           name: "nextjs",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "typescript",
           color: "green-text-gradient",
         },
         {
@@ -257,8 +255,33 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: terminal_img,
+      source_code_link: "https://portfolio-terminal-phi.vercel.app/",
+    },
+    {
+      name: "Video.wiki",
+      description:
+        "A simple tool for teachers to create teaching content without any advance knowledge of a tool or code. They create by using various media and graphics from the open stock libraries and merging it with their own content to keep it engaging and diverse.",
+      tags: [
+        {
+          name: "web3.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "react",
+          color: "green-text-gradient",
+        },
+        {
+          name: "ipfs",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "node",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: video_wiki,
+      source_code_link: "https://video.wiki/",
     },
   ];
   
