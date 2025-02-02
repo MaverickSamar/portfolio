@@ -21,14 +21,19 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import dpd from "./company/dpd.png";
+import marketcube from "./company/marketcube.png";
+import neolen from "./company/neolen_logo.jpeg";
+import pentair from "./company/pentair.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
+import singular from './singular-img.png';
+import marketcube_img from './marketcubeimg.png';
+import terminal_img from './terminalimg.png';
+import video_wiki from './video-wiki.png'
 
 export {
   logo,
@@ -52,11 +57,15 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  pentair,
+  dpd,
+  marketcube,
+  neolen,
   carrent,
   jobit,
   tripguide,
+  singular,
+  marketcube_img,
+  terminal_img,
+  video_wiki
 };
