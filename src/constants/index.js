@@ -84,28 +84,12 @@ import {
       icon: aws,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
       name: "Node JS",
       icon: nodejs,
     },
     {
       name: "MongoDB",
       icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
-    {
-      name: "git",
-      icon: git,
-    },
-    {
-      name: "eth",
-      icon: eth,
     },
     {
       name: "polygon",
