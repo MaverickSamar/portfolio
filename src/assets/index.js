@@ -20,6 +20,14 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import aws from './tech/awss.svg';
+import java from './tech/java.png';
+import python from './tech/python.png';
+import solidity from './tech/solidity.png';
+import ipfs from './tech/ipfs.png';
+import web3 from './tech/web3js.svg'
+import eth from './tech/eth.png'
+import polygon from './tech/polygon.png'
 
 import dpd from "./company/dpd.png";
 import marketcube from "./company/marketcube.png";
@@ -36,6 +44,14 @@ import terminal_img from './terminalimg.png';
 import video_wiki from './video-wiki.png'
 
 export {
+  aws,
+  java,
+  python,
+  solidity,
+  web3,
+  ipfs,
+  eth,
+  polygon,
   logo,
   backend,
   creator,

@@ -4,17 +4,12 @@ import {
     creator,
     web,
     javascript,
-    typescript,
-    html,
-    css,
     reactjs,
     redux,
     tailwind,
     nodejs,
     mongodb,
     git,
-    figma,
-    docker,
     singular,
     marketcube,
     pentair,
@@ -22,9 +17,15 @@ import {
     threejs,
     marketcube_img,
     terminal_img,
-    video_wiki
-
-
+    video_wiki,
+    aws,
+    python,
+    java,
+    solidity,
+    web3,
+    ipfs,
+    polygon,
+    eth
   } from "../assets";
   
   export const navLinks = [
@@ -67,28 +68,20 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Web3",
+      icon: web3,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
+      name: "JavaScript",
+      icon: javascript,
+    },
+    {
+      name:"AWS",
+      icon: aws,
     },
     {
       name: "Tailwind CSS",
@@ -111,13 +104,29 @@ import {
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "eth",
+      icon: eth,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "polygon",
+      icon: polygon,
     },
+    {
+      name: "ipfs",
+      icon: ipfs,
+    },
+    {
+      name: "python",
+      icon: python,
+    },
+    {
+      name: "java",
+      icon: java,
+    },
+    {
+      name: "solidity",
+      icon: solidity,
+    }
   ];
   
   const experiences = [
