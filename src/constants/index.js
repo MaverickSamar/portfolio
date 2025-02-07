@@ -68,6 +68,18 @@ import {
   
   const technologies = [
     {
+      name: "solidity",
+      icon: solidity,
+    },
+    {
+      name: "java",
+      icon: java,
+    },
+    {
+      name: "python",
+      icon: python,
+    },
+    {
       name: "Web3",
       icon: web3,
     },
@@ -100,16 +112,8 @@ import {
       icon: ipfs,
     },
     {
-      name: "python",
-      icon: python,
-    },
-    {
-      name: "java",
-      icon: java,
-    },
-    {
-      name: "solidity",
-      icon: solidity,
+      name: "git",
+      icon: git,
     }
   ];
   
